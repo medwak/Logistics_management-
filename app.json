@@ -1,0 +1,32 @@
+{
+  "id": "77fe8382-f42e-4d51-9c94-1d8ebce50bef",
+  "name": "Logistics Management",
+  "publisher": "Medwak",
+  "version": "1.0.0.0",
+  "brief": "Multi-industry, multi-goods logistics management for Microsoft Dynamics 365 Business Central (Navision).",
+  "description": "Shipments, fleet, drivers, routes, freight rating, tracking and industry-specific compliance (pharma, food, chemicals, automotive, electronics, construction, agriculture and more) for any type of goods.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "24.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50199
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "13.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Your own server",
+      "request": "launch",
+      "type": "al",
+      "environmentType": "Sandbox",
+      "server": "http://bcserver",
+      "serverInstance": "BC",
+      "authentication": "UserPassword",
+      "startupObjectId": 50110,
+      "startupObjectType": "Page",
+      "breakOnError": "All",
+      "launchBrowser": true,
+      "enableLongRunningSqlStatements": true,
+      "enableSqlInformationDebugger": true,
+      "tenant": "default",
+      "usePublicURLFromServer": true
+    },
+    {
+      "name": "Microsoft cloud sandbox",
+      "request": "launch",
+      "type": "al",
+      "environmentType": "Sandbox",
+      "environmentName": "sandbox",
+      "startupObjectId": 50110,
+      "startupObjectType": "Page",
+      "breakOnError": "All",
+      "launchBrowser": true
+    }
+  ]
+}
